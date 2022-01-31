@@ -1,8 +1,11 @@
 from pymongo import MongoClient
 import json
 
+username = "MONGODB USERNAME"
+password = "MONGODB PASSWORD"
+
 client = MongoClient(
-    "mongodb+srv://kaneki:hV2pThgF9fjETTN9@urlshortner.ddysk.mongodb.net/urlshortner?retryWrites=true&w=majority")
+    f"mongodb+srv://{username}:{password}@urlshortner.ddysk.mongodb.net/urlshortner?retryWrites=true&w=majority")
 
 db = client.urlshortner
 collec = db.urlshortner

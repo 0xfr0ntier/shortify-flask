@@ -2,7 +2,7 @@ import requests
 from shortner_api.common.utils import generate_slug
 from shortner_api.common.db import collec
 
-API_KEY = "UAP42FGNPsqY6X1yG7ayCIJZCjxMMZbpsEwB9A6kdE6pkD2O85wnnDtYihtm"
+API_KEY = "TINYURL API KEY"
 
 
 def get_links() -> list:
